@@ -1,0 +1,56 @@
+@title-icon-border-radius: 3px;
+
+.card {
+    &-wrapper {
+        padding: 16px 0 20px 0;
+        border-top:1px solid #E9E9E9;
+        display: inline-block;
+        margin-bottom: 20px;
+        background: #FFF;
+        position: relative;
+        height: auto;
+        width: 100%;
+
+        .table-wrapper {
+            margin-bottom: 4px;
+        }
+    }
+
+    &-title {
+        font-family: PingFangSC-Medium;
+        font-size: 14px;
+        color: #000000;
+        line-height: 22px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    &-extra {
+        position: absolute;
+        line-height: 30px;
+        text-align: right;
+        right: 20px;
+        top: 12px;
+
+        .ant-select-selection--single {
+            height: 30px;
+
+            .ant-select-selection__rendered {
+                line-height: 30px;
+            }
+        }
+
+        .ant-btn {
+            height: 30px;
+        }
+
+        .extra-item {
+            vertical-align: top;
+            display: inline-block;
+            margin-left: 10px;
+        }
+    }
+
+    &-content {
+        padding: 0 20px;
+    }
+}
